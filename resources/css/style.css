@@ -71,7 +71,29 @@ body {
 }
 
 
-/* Action Icons */
+/* Service Icons */
+
+#services_container {
+  display: flex;
+  justify-content: center;
+  height: 8rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.service_container {
+  text-align: center;
+  padding: 0 3rem;
+}
+
+#paper_icon {
+  width: 3.5rem;
+}
+
+#ruler_icon,
+#truck_icon {
+  width: 5rem;
+}
 
 /* Philosophy and Appointments */
 
