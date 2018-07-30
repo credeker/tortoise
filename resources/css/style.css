@@ -97,4 +97,26 @@ body {
 
 /* Philosophy and Appointments */
 
+#blurbs {
+  display:flex;
+  justify-content: space-around;
+}
+
+.blurb_container {
+  width: 35%
+}
+
+.blurb_container h2 {
+  background-color: cadetblue;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 0.5rem 1.25rem ;
+}
+
+.blurb_container p {
+  padding-top: 1rem;
+  padding-bottom: 5rem;
+}
+
 /* Footer */
