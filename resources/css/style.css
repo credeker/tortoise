@@ -20,7 +20,8 @@ body {
   height: 30rem;
   background-image: url("../images/glasses-bg.png");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
+
 }
 
 #header_bar {
@@ -133,4 +134,38 @@ footer {
 #footer_logo img{
   height: 1.5rem;
   padding-right: 1rem;
+}
+
+/* Tablet */
+@media only screen and (max-width: 1024px) {
+  .site_container{
+    width: 100%;
+  }
+
+  #header_container {
+    height: 22rem;
+  }
+
+  #header_bar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top:0px;
+  }
+
+  #headline_container {
+    margin-top: 5rem;
+    margin-right: 4rem;
+    display: inline-block;
+
+  }
+
+  #headline_container h1 {
+    color: black;
+    background-color: white;
+    padding: 0.75rem 4rem;
+    font-weight: bold;
+    font-size: 1.33rem;
+    line-height: 1.2;
 }
