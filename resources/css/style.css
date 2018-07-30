@@ -71,6 +71,10 @@ body {
 
 }
 
+#mobile_navbar {
+  display: none;
+}
+
 
 /* Service Icons */
 
@@ -137,7 +141,7 @@ footer {
 }
 
 /* Tablet */
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1024px) and (min-width: 651px) {
   .site_container{
     width: 100%;
   }
@@ -168,4 +172,94 @@ footer {
     font-weight: bold;
     font-size: 1.33rem;
     line-height: 1.2;
+  }
+}
+
+/* Mobile Media Query */
+
+@media only screen and (max-width: 650px){
+  .site_container{
+    width: 100%;
+  }
+
+  #header_container {
+    height: 17rem;
+    background-position: 20%;
+  }
+
+  #header_bar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top:0px;
+  }
+
+  #logo_container p {
+    display: none;
+  }
+
+  .navbar_item {
+    display: none;
+  }
+
+  #mobile_navbar {
+    display: inline-block;
+  }
+
+  #headline_container {
+    position: static;
+    display: block;
+    width: 100%;
+    margin-top: 12rem;
+
+  }
+
+  #headline_container h1 {
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 1rem;
+  }
+
+  #services_container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin-top: 3.77rem;
+    margin-bottom: 3.77rem;
+
+  }
+
+.service_container {
+  padding: 0;
+
+}
+
+  .service_container p {
+    font-size: 0.77rem;
+  }
+
+  #paper_p,
+  #ruler_p {
+    margin-bottom: 1.54rem;
+  }
+
+  #blurbs {
+    display:flex;
+    flex-direction: column;
+  }
+
+  .blurb_container {
+    width: 100%;
+  }
+
+  .blurb_container h2 {
+    text-align: center;
+  }
+
+  .blurb_container p {
+    font-size: 0.77rem;
+    padding: 1rem 0.25rem 4rem 0.25rem;
+  }
+
 }
