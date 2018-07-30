@@ -120,3 +120,17 @@ body {
 }
 
 /* Footer */
+
+footer {
+  background-color: azure;
+}
+
+#footer_logo {
+  display: flex;
+  padding: 4rem 0 4rem 4rem;
+}
+
+#footer_logo img{
+  height: 1.5rem;
+  padding-right: 1rem;
+}
